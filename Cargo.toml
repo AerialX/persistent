@@ -9,6 +9,8 @@ documentation = "http://ironframework.io/doc/persistent/index.html"
 license = "MIT"
 
 [dependencies]
-iron = "*"
 plugin = "*"
 
+[dependencies.iron]
+version = "*"
+default-features = false
